@@ -1,0 +1,11 @@
+.button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 7px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+#show-transcript {
+  display: none;
+}

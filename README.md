@@ -1,4 +1,4 @@
-web-speech-presentation
-=======================
+Your browser is listening to you
+================================
 
-Presentation on the Chrome Web Speech API
+Presentation on the Web Speech API
