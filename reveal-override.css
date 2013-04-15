@@ -1,0 +1,25 @@
+.reveal * {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.reveal h1 {
+  margin-bottom: 1.4em;
+}
+
+.reveal ul li {
+  font-size: 2em;
+  margin-bottom: 1em;
+  list-style-type: square;
+}
+
+.reveal .slides>section {
+  line-height: inherit;
+}
+
+.reveal .code {
+  font-family: monospace;
+}
+
+.reveal h3 {
+  font-size: 1.7em;
+}

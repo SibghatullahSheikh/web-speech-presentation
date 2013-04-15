@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" type="text/css" href="reveal.css" />
+  <link rel="stylesheet" type="text/css" href="reveal-override.css" />
   <title>Presentation</title>
 </head>
 <body>
@@ -15,7 +16,63 @@
       </section>
 
       <section>
-        <p>Only supported in Chrome</p>
+        <ul>
+          <li class="fragment">Access to the microphone</li>
+          <li class="fragment">Speech recognition</li>
+          <li class="fragment">Continuous live processing</li>
+          <li class="fragment">Requires user permission</li>
+        </ul>
+
+        <aside class="notes">
+          Requires permission every time you ask to listen
+        </aside>
+      </section>
+
+      <section>
+        <h1>Demo</h1>
+      </section>
+
+      <section>
+        <h1>Chrome Extension Support</h1>
+
+        <h3 class="code">chrome.experimental.speechInput</h3>
+      </section>
+
+      <section>
+        <ul>
+          <li class="fragment">Experimental! (must be manually enabled)</li>
+          <li class="fragment">One-shot speech recognition</li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Demo</h1>
+      </section>
+
+      <section>
+        <h1>Things to remember!</h1>
+        <ul>
+          <li class="fragment">Only supported in Chrome (>25)</li>
+          <li class="fragment">Requires a network connection</li>
+        </ul>
+
+        <aside class="notes">
+          Chrome 25 came out late February
+        </aside>
+      </section>
+
+      <section>
+        <h1>Resources</h1>
+
+        <ul>
+          <li><a href="http://updates.html5rocks.com/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API">HTML5 Rocks Article</a></li>
+          <li><a href="https://developer.chrome.com/extensions/experimental.speechInput.html">Chrome Extension Documentation</a></li>
+          <li><a href="https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">W3C Specification</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Questions?</h1>
       </section>
     </div>
   </div>
@@ -61,7 +118,10 @@ Reveal.initialize({
   rollingLinks: true,
 
   // Transition style
-  transition: 'default' // default/cube/page/concave/zoom/linear/fade/none
+  transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+  width: 700,
+  height: 500
 
 });
 </script>
